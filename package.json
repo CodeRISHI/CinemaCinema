@@ -1,0 +1,26 @@
+{
+  "name": "cinemacinema",
+  "version": "1.0.0",
+  "description": "'A place to find your favorite movies.'",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRISHI/CinemaCinema.git"
+  },
+  "keywords": [
+    "react",
+    "jquery",
+    "javascript",
+    "movies",
+    "cinema"
+  ],
+  "author": "'Arun Vasudevan', 'Alamu Palaniappan', 'Vinitha Raja'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRISHI/CinemaCinema/issues"
+  },
+  "homepage": "https://github.com/CodeRISHI/CinemaCinema#readme"
+}
