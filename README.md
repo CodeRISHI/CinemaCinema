@@ -4,7 +4,7 @@
 
 ## Meet the Engineers
   - __Development Team Members__
-  - [Arun Vasudevan](https://github.com/coderishi), [Vinitha Raja](https://github.com/vinithasraja), [Alamu Palaniappan](https://github.com/alamuv)
+      - [Arun Vasudevan](https://github.com/coderishi), [Vinitha Raja](https://github.com/vinithasraja), [Alamu Palaniappan](https://github.com/alamuv)
 
 ## Overview
 
