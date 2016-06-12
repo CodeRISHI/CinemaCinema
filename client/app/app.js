@@ -1,4 +1,3 @@
-//app.js
 import React from 'react';
 import Router from 'react-router';
 import ReactDOM from 'react-dom';
@@ -16,7 +15,9 @@ class App extends React.Component {
 
   render() {
     return (
-      // ADD STUFF HERE
+      <div>
+        <Search />
+      </div>
     )
   }
 }
