@@ -17,14 +17,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>{'Search For Movies, Actors, etc.'}</h1>
+        <h1>{`Search For Movies, Actors, etc.`}</h1>
         <Search />
       </div>
     );
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
+ReactDOM.render(<App />, document.getElementById('app'));
