@@ -1,5 +1,5 @@
-import React from 'react';
-import { Form, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
+// import React from 'react';
+// import { Form, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
 
 class Search extends React.Component {
   constructor(props) {
@@ -20,21 +20,21 @@ class Search extends React.Component {
   render() {
     return (
       <div>
-        <Form inline>
-          <FormGroup controlId="formInlineSearch">
-            <ControlLabel>Search</ControlLabel>
-            {' '}
-            <FormControl type="text" placeholder="search..." />
-          </FormGroup>
-          {' '}
-          <Button type="submit">
-            {'Submit'}
-          </Button>
-        </Form>
-
+        <h1>inside search</h1>
       </div>
     )
   }
 }
 
-export default Search;
+window.Search = Search;
+        // <Form inline>
+        //   <FormGroup controlId="formInlineSearch">
+        //     <ControlLabel>Search</ControlLabel>
+        //     {' '}
+        //     <FormControl type="text" placeholder="search..." />
+        //   </FormGroup>
+        //   {' '}
+        //   <Button type="submit">
+        //     {'Submit'}
+        //   </Button>
+        // </Form>
