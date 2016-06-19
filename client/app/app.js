@@ -1,10 +1,12 @@
-import React from 'react';
-import Router from 'react-router';
-import ReactDOM from 'react-dom';
-import Search from '../components/Search.js';
+// import React from 'react';
+// import Router from 'react-router';
+// import ReactDOM from 'react-dom';
+// import Search from '../components/Search.js';
+// var Search = require('Search');
 
 class App extends React.Component {
   constructor(props) {
+    console.log('hi there')
     super(props);
 
     this.state = {
@@ -15,13 +17,18 @@ class App extends React.Component {
   }
 
   render() {
+    console.log('hi there')
     return (
       <div>
-        <h1>{`Search For Movies, Actors, etc.`}</h1>
+        <h1>App</h1>
         <Search />
       </div>
     );
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
+        // <Search />
